@@ -10,13 +10,10 @@ nav {
   height: 110px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 150px;
+  justify-content: center;
+  gap: 350px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  position: sticky;
-  top: 0px;
-  bottom: 100px;
 }
 .menu {
   display: flex;
@@ -264,6 +261,7 @@ color: #F948B2;
 .type-container{
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
   max-width: 100%;
+  height: 150px;
   padding: 100px;
   margin-top: 250px;
   display: flex;
@@ -343,4 +341,31 @@ footer .logo{
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
+}
+
+/* Media Query [Responsive for smartphone] */
+
+@media screen and (max-width:576px) {
+  /* Navigation Bar */
+  nav{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px 0px;
+    justify-content: space-between;
+    box-shadow: none;
+  }
+  nav .logo{
+    
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* header */
+  
+  
 }
