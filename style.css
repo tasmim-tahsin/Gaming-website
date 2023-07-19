@@ -352,15 +352,13 @@ footer .logo{
   nav{
     display: flex;
     flex-direction: column;
-
+    height: 100%;
     padding: 50px 0px;
     justify-content: space-between;
-    box-shadow: none;
+    margin-bottom: 50px;
   }
   nav .logo{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
+    gap: 20px;  
   }
   .menu{
     display: flex;
@@ -391,7 +389,6 @@ footer .logo{
   font-size: 1rem;
   }
   .btn{
-    padding-top: 41px;
     display: flex;
     align-items: flex-start;
     gap: 30px;
