@@ -212,8 +212,9 @@ font-weight: 500;
 }
 .relative-img{
   position: relative;
-  left: 170px;
-  top: 90px;
+  left: 150px;
+  top: 80px;
+  width: 250px;
 }
 .text-container{
   text-align: right;
@@ -238,8 +239,9 @@ color: #F948B2;
 }
 .relative-img2{
   position: relative;
-  right: 170px;
+  right: 150px;
   top: 90px;
+  width: 250px;
 }
 .text-container2{
   text-align: left;
@@ -251,4 +253,7 @@ color: #F948B2;
 }
 .text-container2 h2 span{
 color: #F948B2;
+}
+.main-img{
+  width: 500px;
 }
