@@ -342,7 +342,9 @@ footer .logo{
   font-style: normal;
   font-weight: 400;
 }
-
+.hidden{
+  display: none;
+}
 /* Media Query [Responsive for smartphone] */
 
 @media screen and (max-width:576px) {
@@ -350,22 +352,143 @@ footer .logo{
   nav{
     display: flex;
     flex-direction: column;
-    height: 100%;
+
     padding: 50px 0px;
     justify-content: space-between;
     box-shadow: none;
   }
   nav .logo{
-    
+    display: flex;
+    gap: 50px;
+    justify-content: center;
   }
   .menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
   }
 
   /* header */
+  .header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-img{
+    width: 100%;
+  }
+  .title{
+  font-size: 2rem;
+ 
+  }
+  .goat{
+    font-size: 3rem;
+  }
+  .text{
+  font-size: 1rem;
+  }
+  .btn{
+    padding-top: 41px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .primary-btn1{
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 48px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  border: none;
+  color: #fff;
   
+  }
+  .primary-btn2{
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #fff;
   
+  }
+  /* Funny Videos  */
+  .main-container h2 , .we-are{
+    font-size: 2rem;
+  }
+  .videos-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+.videos-container .desc{
+  text-align: center;
+}
+  /* play Instantly */
+  .play-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+.text-container{
+  text-align: center;
+}
+.main-img{
+  align-items: center;
+  width: 350px;
+}
+.relative-img{
+  width: 200px;
+  left: 200px;
+  top: 400px;
+}
+/* online play */
+.online-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.text-container2{
+text-align: center;
+}
+.main-img2{
+align-items: center;
+width: 350px;
+}
+.relative-img2{
+width: 200px;
+left: 190px;
+top: -170px;
+
+}
+
+/* Game type */
+
+
+  /* Footer responsive */
+  footer .logo{
+    font-size: 2rem;
+  }
+  .anchor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .light-anchor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .anchor a{
+    font-size: 1rem;
+  }
+  .light-anchor a{
+    font-size: 0.8rem;
+  }
+  .footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+  }
+  }
 }
