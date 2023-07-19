@@ -465,7 +465,21 @@ top: -170px;
 }
 
 /* Game type */
-
+.type-container{
+  margin-top: 10px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.type{
+  padding: 5px;
+}
+.type img{
+  width: 20px;
+}
+.type p{
+  font-size: 0.5rem;
+}
 
   /* Footer responsive */
   footer .logo{
