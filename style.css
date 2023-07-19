@@ -105,8 +105,9 @@ background-clip: text;
 text-align:start;
 font-size: 1.25rem;
 font-weight: 500;
-padding-top: 17px;
+padding-top: 20px;
 }
+
 .btn{
   padding-top: 41px;
   display: inline-flex;
