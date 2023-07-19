@@ -201,6 +201,7 @@ font-weight: 500;
   border-radius: 8px;
 }
 
+
 /* Play Instantly Section */
 .play-container{
   max-width: 100%;
@@ -356,6 +357,7 @@ footer .logo{
     padding: 50px 0px;
     justify-content: space-between;
     margin-bottom: 50px;
+    box-shadow: none;
   }
   nav .logo{
     gap: 20px;  
