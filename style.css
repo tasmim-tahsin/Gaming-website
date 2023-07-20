@@ -332,6 +332,7 @@ width: 800px;
   background-color: #fff;
   padding: 15px;
   border-radius: 50px;
+  border: 2px solid transparent;
   align-items: center;
   border: 2px solid transparent;
   justify-content: center;
