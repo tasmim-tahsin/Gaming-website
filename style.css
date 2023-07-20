@@ -277,6 +277,7 @@ color: #F948B2;
   background-color: #fff;
   padding: 20px;
   border-radius: 50px;
+  border: 2px solid transparent;
   align-items: center;
   justify-content: center;
   cursor: pointer;
